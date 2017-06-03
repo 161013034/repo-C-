@@ -14,7 +14,9 @@ vsearch4web
 用户得到输出结果为：
 ## 从输入到输出，本组作品使用了：
 ### 模块
-* [os](http://blog.csdn.net/devil_2009/article/details/7941241)
+* [tsv](http://www.52ij.com/jishu/python/12449.html)
+* [csv](http://www.cnblogs.com/nisen/p/6155492.html)
+
 
 ### 数据
 * 老师提供的TXT文档课程表
@@ -22,4 +24,4 @@ vsearch4web
 * [github](https://api.github.com/)
 
 ## 作者成员：
-见[_team_.tsv](_team_/_team_.tsv)
+见[_team_.tsv](https://github.com/hujingyin/repo-C-/blob/master/_team_.tsv)

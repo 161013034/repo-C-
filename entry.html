@@ -4,14 +4,19 @@
 
 <h2>{{ the_title }}</h2>
 
-<form method='POST' action='/search4'>
+<form method='POST' action='/pick_a_country'>
 <table>
-<th colspan="2">使用此窗体提交搜索请求：</th>
-<tr><td>老师姓名：</td><td><input name='name' type='TEXT' width='60'></td></tr>
-
+<th colspan="2">请选取老师姓名：</th>
+<tr><td>课程名称: </td><td>
+  <select name='user_classtime'>
+  {% for item in the_list_items %}
+    <option value="{{item}}">{{item}}</option>
+  {% endfor %}
+  </select>
+</td></tr>
 </table>
 <p>准备就绪后, 单击此按钮：</p>
-<p><input value='OK' type='SUBMIT'></p>
+<p><input value='搞吧！' type='SUBMIT'></p>
 </form>
 
 {% endblock %}
